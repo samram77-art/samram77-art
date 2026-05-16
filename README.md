@@ -1,5 +1,5 @@
 # Hi, I'm Samson Ram 👋
-
+![Profile views](https://komarev.com/ghpvc/?username=samram77-art&color=01696f&style=flat)
 **AI Security Researcher · Penetration Tester · Bug Bounty Hunter**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=samram77-art&color=brightgreen&style=flat)](https://github.com/samram77-art)
