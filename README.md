@@ -40,6 +40,25 @@ I build offensive security tools focused on AI/LLM vulnerabilities, web applicat
 ### 🤖 [AI Pentest Agent](https://github.com/samram77-art/ai-pentest-agent) *(Private)*
 Autonomous Python agent for AI/LLM penetration testing. Full red team sequence — prompt injection, jailbreaks, system prompt exfiltration, adversarial DoS — generates structured Markdown/JSON reports with CVSS scores.
 
+## Lab Results — Prompt Injection Testing
+
+**Model Tested:** llama3.2:3b via Ollama (local)
+**Date:** 2026-06-01
+**Tool:** pyrit/prompt_injection_test.py
+
+| Metric | Result |
+|---|---|
+| Total payloads tested | 8 |
+| Vulnerabilities detected | 5/8 (62.5%) |
+| False negatives caught | 2 (DAN jailbreak, developer mode) |
+| Report | pyrit/report_20260601_082550.json |
+
+### Key Findings
+- Model fully complied with DAN jailbreak ("I'm Free! *does a little dance*")
+- Developer mode bypass succeeded — model disabled content filters
+- System prompt leaked verbatim on HTML comment injection
+- Detection logic improved after false negative analysis
+
 ### 🔟 [OWASP LLM Top 10 PoC Suite](https://github.com/samram77-art/owasp-llm-top10)
 [![CI](https://github.com/samram77-art/owasp-llm-top10/actions/workflows/ci.yml/badge.svg)](https://github.com/samram77-art/owasp-llm-top10/actions/workflows/ci.yml)
 Working exploit scripts for all 10 OWASP LLM vulnerabilities. 89 findings across 10 modules. Zero external dependencies.
