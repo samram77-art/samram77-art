@@ -103,4 +103,13 @@ Documented solutions across Web, Crypto, and AI/LLM categories. AI/LLM challenge
 
 ---
 
+graph LR
+    A[Attacker] --> B(Prompt Injector)
+    B --> C{LLM Gateway}
+    C -->|Bypass| D[System Prompt Exfiltration]
+    C -->|Blocked| E[Logging & Alert]
+    D --> F[JSON Report Generation]
+
+---
+
 > *"Security is not a product, but a process."* — Bruce Schneier
