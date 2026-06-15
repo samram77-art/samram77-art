@@ -1,4 +1,4 @@
-# Hi, I'm Samson Ram 👋
+# Hi, I'm s4ms0n 👋
 
 **AI Security Researcher · Penetration Tester · Bug Bounty Hunter**
 
