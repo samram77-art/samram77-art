@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/samsonram)
 [![BugCrowd](https://img.shields.io/badge/BugCrowd-F26822?style=flat&logo=bugcrowd&logoColor=white)](https://bugcrowd.com/samram77)
 
-I build offensive security tools focused on AI/LLM vulnerabilities, web application penetration testing, and automated recon. Based in Ajax, Ontario 🇨🇦 — actively hunting bugs on BugCrowd and building a portfolio of AI red teaming tools.
+I build offensive security tools focused on AI/LLM vulnerabilities, web application penetration testing, and automated recon. Based in Ajax, Ontario, Canada. Focused on AI security research, web application testing, and responsible vulnerability discovery through bug bounty programs.
 
 ---
 
